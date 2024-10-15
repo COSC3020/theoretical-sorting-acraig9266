@@ -16,3 +16,8 @@ Also give a theoretical argument for why X could or could not be correct, based
 on the complexity of the general sorting problem we covered in class.
 
 Add your answers to this markdown file.
+# Claim Verification
+
+
+# Theoretical Argument
+Based on the complexity of the general sorting problem from class, the fastest that any general-purpose comparison-based sorting algorithm can be asymptotically is $T(n) ∈ Ω(nlogn)$. Since the researcher is claiming a $O(n)$ for their algorithm, I would say that it could not be correct because he is claiming the fastest growth of his algorithm is slower than the slowest growth of all other general-purpose sorting algorithms and slower growth than the theoretical limit for how fast an algorithm can be.
