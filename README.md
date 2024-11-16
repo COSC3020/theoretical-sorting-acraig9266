@@ -18,7 +18,7 @@ on the complexity of the general sorting problem we covered in class.
 
 Add your answers to this markdown file.
 # Claim Verification
-
+Since it is a black box implementation I'm being allowed to use, there is no way to calculate the time complexity to verify the claim so the next best option would be to compare the run time of the new algorithm and the run times of other algorithms on the same input arrays. I would look to verify this claim by using the new sorting algorithm as well as common existing comparison-based sorting algorithms on a large number of inputs. I would expect that if the claim of the new algorithm being O(n) is true, then the average run time of the new algorithm across all tests would outperform the average run time of all other common sorting algorithms it is being compared against. While not an exhaustive list of input arrays I would use in testing, some important ones to test would be an already sorted array, a reverse-sorted array, fully sorted array, an empty array, arrays of very small input sizes like 10 or smaller, and very large sized input arrays with sizes in the millions or billions. To round things out, I would use a large number of inputs that are of randomized size and randomized order.
 
 # Theoretical Argument
 Based on the complexity of the general sorting problem from class, the fastest that any general-purpose comparison-based sorting algorithm can be asymptotically is $T(n) ∈ Ω(nlogn)$. Since the researcher is claiming a $O(n)$ for their algorithm, I would say that it could not be correct because he is claiming the fastest growth of his algorithm is slower than the slowest growth of all other general-purpose sorting algorithms and slower growth than the theoretical limit for how fast an algorithm can be.
